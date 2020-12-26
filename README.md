@@ -4,10 +4,14 @@
 
 ### Example:
 
-```import WordUnscramblr from "./WordUnscramblr";```
+```
 
-```const unscrambler = new WordUnscramblr(["hello", "scramble"]);```
+import WordUnscramblr from "./WordUnscramblr";
 
-```let result = unscrambler.unscramble(["mbcrasel", "ohlel"])```
+const unscrambler = new WordUnscramblr(["hello", "scramble"]);
 
-```// result = ["scramble", "hello"]```
+let result = unscrambler.unscramble(["mbcrasel", "ohlel"]);
+
+// result = ["scramble", "hello"]
+
+```
